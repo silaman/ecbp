@@ -1,0 +1,73 @@
+site_name: IBM Expertise Connect Best Practices
+theme:
+  name: material
+  features:
+      - content.code.annotate
+      - content.code.copy
+      - content.tooltips
+      - content.tabs.link
+      - navigation.tabs
+      - navigation.instant
+      - navigation.indexes
+      - navigation.tracking
+      - navigation.top
+      - search.highlight
+      - search.share
+      - search.suggest
+      - toc.follow
+      - toc.integrate
+docs_dir: docs
+palette:
+  - scheme: default
+    toggle: 
+      icon: material/toggle-switch-off-outline
+      name: Switch to dark mode
+    primary: teal
+    accent: purple
+  - scheme: slate
+    toggle: 
+      icon: material/toggle-switch
+      name: Switch to light mode
+    primary: teal
+    accent: lime
+markdown_extensions:
+  - abbr
+  - attr_list
+  - admonition
+  - def_list
+  - footnotes
+#   - meta
+  - md_in_html
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.snippets
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+#   - pymdownx.snippets:
+#       base_path: docs-mk/snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.details
+
+
+
+copyright: |
+  &copy;2024 IBM
